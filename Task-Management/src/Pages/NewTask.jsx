@@ -98,7 +98,7 @@ const handleSubmit = async () => {
 
           }
         >
-          Status
+          {status ? "Completed" : "Pending"}
         </Checkbox>
         <Box marginTop={5}>
           <Button width="200px" onClick={handleSubmit}>
